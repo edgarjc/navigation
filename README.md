@@ -1,16 +1,9 @@
-# navigation
+# Flutter with go_router and NavigationBar
+Here's an implementation of Flutter using go_router with the newest NavigationBar widget. This setup uses IndexedStack to ensure that each tab's history is preserved when switching between them.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Features
+NavigationBar: Utilizes the modern NavigationBar widget for smooth navigation.
+ - State Preservation: Uses IndexedStack to maintain each tab's state and history, providing a seamless user experience.
+# Getting Started
+ - Define Routes: Configure your routes in routes.dart with nested routes.
+ 
